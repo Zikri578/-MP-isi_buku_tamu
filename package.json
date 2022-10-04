@@ -1,0 +1,11 @@
+{
+  "name": "node-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "http-server ./public -c-1"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

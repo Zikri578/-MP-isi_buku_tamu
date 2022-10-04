@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@200;300;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: antiquewhite;
+  overflow-x: hidden;
+  font-family: 'inter', sans-serif;
+  font-weight: 300;
+}
+
+p {
+  line-height: 2;
+  font-family: 'inter', sans-serif;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'inria serif', serif;
+  font-weight: 500;
+}
+
+.navbar{
+  width: 100vw;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.247);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.nav_wrapper{ 
+  margin: 0 auto;
+  width: inherit;
+  max-width: 1180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero {
+  background-image: url("https://images.pexels.com/photos/818649/pexels-photo-818649.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero p {
+  font-size: 32px;
+  margin: 0;
+}
+
+.hero h1 {
+  font-size: 96px;
+  margin: 0;
+}
+
+/* .hero h1{
+  padding: 0;
+  margin: 0;
+  font-size: 64px;
+  font-family: 'inria serif', serif;
+} */
+
+.hero button {
+  height: 50px;
+  width: 150px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: inherit;
+  font-family: inherit;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+}
+
+.hero button:hover {
+  background-color: rgb(192, 170, 140);
+}
+
+section {
+  width: inherit;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 40px 0px;
+}
+
+section h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.daftar_tamu_table {
+  width: 100%;
+}
+
+th{
+  text-align: left;
+  height: 40px;
+}

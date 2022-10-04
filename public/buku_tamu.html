@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buku Tamu Pernikahan</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav_wrapper">
+        <h1>Asep & Twinky</h1>
+        <h3>Buku Tamu</h3>
+      </div>
+    </nav>
+
+    <main>
+      <div class="hero">
+        <p>Pernikahan</p>
+        <h1>Asep & Twinky</h1>
+        <p>Pekanbaru, 25 Desember 2030</p>
+        <button onclick="bukuTamu()">Isi Buku Tamu</button>
+      </div>
+
+      <section>
+        <h1>Daftar Tamu</h1>
+        <table class="daftar_tamu_table">
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Nama Lengkap</th>
+              <th>Domisili</th>
+              <th style="text-align: center">Keterangan</th>
+            </tr>
+          </thead>
+          <tbody id="tbody">
+            <!-- Manambahkan data dari JS -->
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <script src="./main_buku_tamu.js"></script>
+  </body>
+</html>
